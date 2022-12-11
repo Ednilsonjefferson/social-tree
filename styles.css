@@ -1,0 +1,190 @@
+:root {
+    --white-light: #faf7fd;
+    --purple: #bb99dd;
+    --cinza-dark: #aaa;
+    --cinza-light: #ccc;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .tree-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.tree-container .avatar {
+    width: 213px;
+    height: 213px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 1px solid var(--purples);
+    border-radius: 50%;
+}
+
+.tree-container .avatar img {
+    width: 200px;
+    height: 200px;
+
+    border-radius: 50%;
+}
+
+.tree-container .links-container {
+    margin-top: 17px;
+    display: flex;
+    flex-direction: column;
+}
+
+.links-container .link {
+    margin-top: 16px;
+    width: 325px;
+
+    border-radius: 4px;
+
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 12px 0;
+    text-align: center;
+    transition: ease 0.3s;
+    transform: scale(0.9);
+}
+
+.links-container .instagram {
+    background: transparent;
+    border: 2px solid #aaa;
+    transform: scale(0.9);
+    color: #aaa;
+}
+
+.links-container .instagram:hover {
+    background-color: #a30065;
+    color: var(--white-light);
+    border: 2px solid #a30065;
+    transform: scale(1);
+}
+
+.links-container .youtube {
+    background: transparent;
+    border: 2px solid #aaa;
+    transform: scale(0.9);
+    color: #aaa;
+}
+
+.links-container .youtube:hover {
+    background-color: #A20003;
+    border: 2px solid #A20003;
+    color: var(--white-light);
+    transform: scale(1);
+}
+.links-container .spotify {
+    background: transparent;
+    border: 2px solid #aaa;
+    transform: scale(0.9);
+    color: #aaa;
+}
+
+.links-container .spotify:hover {
+    background-color: #17b30c;
+    border: 2px solid #17b30c;
+    color: var(--white-light);
+    transform: scale(1);
+}
+
+.links-container .deez {
+    background: transparent;
+    border: 2px solid #aaa;
+    transform: scale(0.9);
+    color: #aaa;
+}
+
+.links-container .deez:hover {
+    background-color: #e28743;
+    border: 2px solid #e28743;
+    color: var(--white-light);
+    transform: scale(1);
+}
+
+.links-container .whats {
+    background: transparent;
+    border: 2px solid #aaa;
+    transform: scale(0.9);
+    color: #aaa;
+}
+
+.links-container .whats:hover {
+    background-color: #06a716;
+    border: 2px solid #06a716;
+    color: var(--white-light);
+    transform: scale(1);
+}
+
+.links-container .link i {
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.tree-container .socials-container {
+    margin-top: 68px;
+    margin-bottom: 40px;
+
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 29px;
+}
+
+.socials-container .social {
+    transform: scale(0.9);
+    transition: all ease 0.3s;
+    color: #aaa;
+}
+
+.socials-container .social i {
+    font-size: 30px;
+}
+
+.socials-container .insta:hover {
+    color: #a30065;
+}
+
+.socials-container .yout:hover {
+    color: #A20003;
+}
+.socials-container .deezer:hover {
+    color: #e28743;
+}
+.socials-container .spot:hover {
+    color: #17b30c;
+}
+.socials-container .zap:hover {
+    color: #06a716;
+}
+
+.socials-container .social:hover {
+    transform: scale(1);
+}
+
+.tree-container .footer {
+    text-align: center;
+    color: #aaa;
+    font-size: 14px;
+}
